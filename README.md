@@ -1,3 +1,6 @@
+
+### This code is associated with the paper from Fallon et al., "Firefly genomes illuminate parallel origins of bioluminescence in beetles". eLife, 2018. http://dx.doi.org/10.7554/eLife.36495
+
 This is a Python3 script which is designed to take a [Uniprot reference proteome](https://www.uniprot.org/help/reference_proteome) in FASTA format (which are non-redundant in peptide sequence, but may have multiple isoforms per gene), and attempt to filter down the protemome to a single "canonical isoform" per gene.
 
 If your organism is already well-manually reviewed on Uniprot (e.g. the protein is included in the SwissProt database), it has already undergone such reduction to a single canonical isoform per gene (barring some [exceptions](https://www.uniprot.org/help/canonical_and_isoforms) where the definition of "gene" gets a bit tricky). 
